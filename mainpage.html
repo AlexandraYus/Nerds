@@ -105,9 +105,9 @@
           5 лит П, Санкт-ПетербургП<br>
           <a href="tel:+78005558628">+7 800 555-86-28</a>
         </p>
-        <button>Напишите нам</button>
+        <button type="button">Напишите нам</button>
         <img src="" alt="карта">
-        <img src="" alt="шильдик">
+        <img src="" alt="геометка">
       </section>
       <p>Давайте дружить, это выгодно!</p>
       <p>Скидка 10% для друзей из социальных сетей.</p>
@@ -123,5 +123,20 @@
         </li>
       </ul>
     </footer>
+    <section>
+      <h2>Напишите нам</h2>
+      <form action="/" method="post">
+        <p>
+          <label for="name">Ваше Имя</label>
+          <input id="name" type="text" name="text" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="email">Ваша Почта</label>
+          <input id="email" type="email" name="email" placeholder="email@example.com">
+        </p>
+        <label for="comment">Текст письма:</label>
+        <textarea id="comment" type="text" name="comment" placeholder="В свободной форме"></textarea>
+      </form>
+    </section>
   </body>
 </html>
